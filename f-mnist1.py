@@ -5,7 +5,7 @@ data = input_data.read_data_sets('data/fashion')
 
 #data.train.next_batch(BATCH_SIZE)
 
-import tesnorflow as tf 
+import tensorflow as tf 
 sess = tf.InteractiveSession()
 
 def weight_variable(shape):
