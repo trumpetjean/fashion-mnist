@@ -1,4 +1,4 @@
-import __future__ ipmport print_function
+import __future__ import print_function
 
 from tensorflow.examples.tutorials.mnist import input_data
 data = input_data.read_data_sets('data/fashion')
