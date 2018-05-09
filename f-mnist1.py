@@ -3,7 +3,7 @@ from __future__ import print_function
 from tensorflow.examples.tutorials.mnist import input_data
 data = input_data.read_data_sets('data/fashion')
 
-data.train.next_batch(BATCH_SIZE)
+#data.train.next_batch(BATCH_SIZE)
 
 import tesnorflow as tf 
 sess = tf.InteractiveSession()
